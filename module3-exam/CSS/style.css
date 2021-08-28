@@ -1,0 +1,50 @@
+/*colors : #69ccff  #81b29a*/
+
+#header-nav #second-nav .navbar-brand h1{
+	margin-left: 2vw;
+}
+
+#header-nav #second-nav .nav-item .nav-link h2{
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+.navbar{
+	background-color: #69ccff !important;
+}
+
+@media(min-width: 768px){
+	#second-nav.container-fluid div, #second-nav.container-fluid button{
+	display: none !important;
+	}
+}
+
+.nav-item{
+	width:100%;
+	text-align: center;
+}
+
+/********** body ********/
+
+h2.menu{
+	text-align: center;
+	margin: 30px 0;
+	color:#17916f; 
+	text-shadow: 0 0 10px rgba(0,0,0,.3);
+	font-size: 40px;
+}
+
+.row h3{
+	text-align: center;
+}
+
+
+section > div{
+	background-color:#81b29a;
+	margin: 10px;
+	padding: 10px;
+	font-size: 2vw;
+}
+
+div a{
+	color: #0037ff;
+}
